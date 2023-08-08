@@ -14,5 +14,9 @@ module.exports = {
       },
     },
   },
+
+  experimentalFeatures: {
+    disableClass: ['max-w-5xl'],
+  },
   plugins: [],
 }
