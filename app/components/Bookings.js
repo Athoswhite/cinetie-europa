@@ -3,7 +3,7 @@ import React from "react";
 export default function Bookings() {
   return (
     <>
-      <div className="xl:mx-auto xl:container py-20 2xl:px-0 px-6">
+      <div className="xl:mx-auto xl:container py-20 2xl:px-0 px-6 ">
         <div className="lg:flex items-center justify-between">
           <div className=" lg:w-1/2 w-full">
             <p className="text-base leading-4 text-red-700">ATTEND LIVE</p>
@@ -72,15 +72,15 @@ export default function Bookings() {
             />
             <div
               role="listitem"
-              className="bg-neutral-900  shadow rounded-lg p-8 relative z-30"
+              className="bg-neutral-900  shadow rounded-lg p-8 relative  bg-purple-800 bg-opacity-30 backdrop-filter backdrop-blur-lg"
             >
-              <p className="md:w-80 text-base leading-6 mt-4 text-white">
+              <p className="md:w-80 text-base leading-6 mt-4 text-white ">
                 Attend live events
               </p>
             </div>
             <div
               role="listitem"
-              className="bg-neutral-900  shadow rounded-lg mt-3 flex relative z-30"
+              className="bg-neutral-900  shadow rounded-lg mt-3 flex relative  bg-purple-800 bg-opacity-30 backdrop-filter backdrop-blur-lg"
             >
               <div className="w-2.5  h-auto bg-red-700 rounded-tl-md rounded-bl-md" />
               <div className="w-full p-8">
@@ -91,7 +91,7 @@ export default function Bookings() {
             </div>
             <div
               role="listitem"
-              className="bg-neutral-900  shadow rounded-lg p-8 relative z-30 mt-7"
+              className="bg-neutral-900  shadow rounded-lg p-8 relative mt-7 bg-purple-800 bg-opacity-30 backdrop-filter backdrop-blur-lg"
             >
               <p className="md:w-80 text-base leading-6 mt-4 text-white">
                 5 days video editing course and IP{" "}
