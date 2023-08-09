@@ -60,7 +60,12 @@ export default function Main() {
             </div>
           </div>
           <div className="flex justify-center mt-6 md:mt-8">
-            <a href="#" className="btn btn-primary btn-animated">
+            <a
+              href="https://www.cinetie.com"
+              className="btn btn-primary btn-animated"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Stream on Cinetie
             </a>
           </div>
@@ -80,7 +85,7 @@ export default function Main() {
             film including but not limited to short films, long feature film,
             documentary, TV series and animations.
           </p>
-          <div className="pt-6 md:pt-10 max-2xl pb-20 md:max-xl:flex mx-auto md:px-1">
+          <div className="pt-6 md:pt-10 pb-20 md:max-xl:flex mx-auto md:px-1">
             <div className="bg-neutral-900 backdrop-filter backdrop-blur-lg backdrop-opacity-10 p-4 rounded-lg">
               <Qoutes />
             </div>

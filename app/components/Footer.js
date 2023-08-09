@@ -5,7 +5,7 @@ export default function Footer() {
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
           <div class="px-5 py-2">
             <a
-              href="#"
+              href="#about"
               class="text-base leading-6 text-white hover:text-red-500"
             >
               About Cinetie
@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
           <div class="px-5 py-2">
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdrjiNze2d3rqyWoCQVBJ7fHksTfxmkCvExxJ6HqJnT8Ncgqw/viewform?pli=1"
               class="text-base leading-6 text-white hover:text-red-500"
             >
               Business
@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
           <div class="px-5 py-2">
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdrjiNze2d3rqyWoCQVBJ7fHksTfxmkCvExxJ6HqJnT8Ncgqw/viewform?pli=1"
               class="text-base leading-6 text-white hover:text-red-500"
             >
               Partner
