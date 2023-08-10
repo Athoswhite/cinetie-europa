@@ -28,18 +28,19 @@ export default function Main() {
                 <div className="flex items-center justify-end my-6">
                   <img
                     tabIndex={0}
-                    src="https://hls-dash-drm-source-1xi7l5k006rpx-thumbnails.s3.amazonaws.com/85f009f0-b41d-4515-807a-91e29926d884.jpg"
+                    src="https://hls-dash-drm-source-1xi7l5k006rpx-thumbnails.s3.amazonaws.com/11c442c9-0994-473e-bbda-1a008dbdaff3.jpg"
                     alt="cinetie movie"
                     className="w-full md:w-[300px] sm:w-[200px] rounded-lg"
-                    style={{ maxWidth: "400px", height: "auto" }}
+                    style={{ maxWidth: "600px", height: "auto" }}
                   />
                 </div>
+                
                 <div className="flex items-start">
                   <img
                     tabIndex={0}
                     src="https://hls-dash-drm-source-1xi7l5k006rpx-thumbnails.s3.amazonaws.com/0f3dc3cd-7413-48f8-af80-cc87d1ba936c.jpg"
                     alt="girl with blue background"
-                    className="w-full md:w-[400px] sm:w-[200px] rounded-lg"
+                    className="w-full md:w-[600px] sm:w-[200px] rounded-lg"
                     style={{ maxWidth: "600px", height: "auto" }}
                   />
                 </div>
@@ -50,8 +51,8 @@ export default function Main() {
                   src="https://vod-pipeline-3-thumbnails.s3.eu-west-1.amazonaws.com/a242235e-7294-4dce-a738-4336f6020f46.jpg"
                   className="w-full md:w-[300px] sm:w-[200px] rounded-lg"
                   style={{
-                    maxWidth: "400px",
-                    height: "auto",
+                    maxWidth: "500px",
+                    height: "800px",
                     maxHeight: "600px",
                   }}
                   alt="cinetie image"
