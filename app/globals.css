@@ -160,3 +160,18 @@ a {
   }
 }
 
+.bg-gradient-to-r {
+  background-image: linear-gradient(to top, #000000 60%,#1f090951,#402a007f, #003f5a7f, #402d007f);
+  animation: gradient 3s linear infinite;
+  backdrop-filter: blur(3px);
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 30%;
+  }
+  100% {
+    background-position: 100% 70%;
+  }
+}

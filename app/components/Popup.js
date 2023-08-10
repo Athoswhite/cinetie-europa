@@ -51,7 +51,7 @@ export default function Popup() {
                 className="text-xl font-medium leading-normal text-white dark:text-neutral-200"
                 id="exampleModalScrollableLabel"
               >
-                🌍 Your Ticket Includes:
+                &lsquo; 🌍 Your Ticket Includes:
               </h5>
               <button
                 type="button"

@@ -38,7 +38,7 @@ export default function Main() {
                 <div className="flex items-start">
                   <img
                     tabIndex={0}
-                    src="https://hls-dash-drm-source-1xi7l5k006rpx-thumbnails.s3.amazonaws.com/0f3dc3cd-7413-48f8-af80-cc87d1ba936c.jpg"
+                    src="https://hls-dash-drm-source-1xi7l5k006rpx-thumbnails.s3.amazonaws.com/e5fb61b6-b49f-4f7d-9105-1b5d02c4a9f0.jpg"
                     alt="girl with blue background"
                     className="w-full md:w-[600px] sm:w-[200px] rounded-lg"
                     style={{ maxWidth: "600px", height: "auto" }}
