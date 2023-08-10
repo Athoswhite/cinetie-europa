@@ -51,7 +51,7 @@ export default function Popup() {
                 className="text-xl font-medium leading-normal text-white dark:text-neutral-200"
                 id="exampleModalScrollableLabel"
               >
-                &lsquo; 🌍 Your Ticket Includes:
+                🌍 Your Ticket Includes:
               </h5>
               <button
                 type="button"
@@ -71,21 +71,21 @@ export default function Popup() {
                   </li>
                   <br />
                   <li>
-                  &lsquo; 🎥 <span className="text-red-500 font-bold">An Array of Captivating Films and Masterpieces</span> - Immerse
+                  🎥 <span className="text-red-500 font-bold">An Array of Captivating Films and Masterpieces</span> - Immerse
                     yourself in an exclusive selection of cinematic treasures,
                     giving you a glimpse into the heart and soul of Africa's
                     diverse narratives.
                   </li>
                   <br />
                   <li>
-                  <span className="text-red-500 font-bold"> &lsquo;🌟Inspiring Talks </span> - Gain insights from industry luminaries
+                  <span className="text-red-500 font-bold">🌟Inspiring Talks </span> - Gain insights from industry luminaries
                   and visionaries, including the renowned CEO of Cinetie, a
                   trailblazing film producer who has championed African cinema
                   on the global stage.
                   </li>
                   <br />
                   <li>
-                  <span className="text-red-500 font-bold"> &lsquo;🌆 Unveiling of the Cinetie Europe Office Project </span>- Witness
+                  <span className="text-red-500 font-bold">🌆 Unveiling of the Cinetie Europe Office Project </span>- Witness
                   the grand reveal of our project to establish a new Cinetie
                   office in Europe! Your participation will directly contribute
                   to this groundbreaking initiative that will amplify the impact
@@ -93,13 +93,13 @@ export default function Popup() {
                   </li>
                   <br />
                   <li>
-                  <span className="text-red-500 font-bold"> &lsquo;💫 Networking and Cultural Exchange</span> - Connect with fellow
+                  <span className="text-red-500 font-bold">💫 Networking and Cultural Exchange</span> - Connect with fellow
                   cinema enthusiasts, professionals, and change-makers in an
                   atmosphere of collaboration and celebration.
                   </li>
                   <br />
                   <li>
-                  <span className="text-red-500 font-bold">&lsquo;🌟 Price: 1590 sek</span> for the Full Package But wait, there's
+                  <span className="text-red-500 font-bold">🌟 Price: 1590 sek</span> for the Full Package But wait, there's
                   more! As a token of our gratitude for your support, your event
                   ticket grants you exclusive access to:
                   </li>
@@ -121,15 +121,15 @@ export default function Popup() {
                   </li>
             </ol>
               <div style={{ height:'50px' }}></div>
-              <p><span className="text-red-500 font-bold">📢 Don't Miss Your Chance to</span>: &lsquo;🌍 Be part of an
-                  event that merges creativity, culture, and community. &lsquo;🎉 Shape
-                  the narrative of African cinema on an international scale. &lsquo;🌟
+              <p><span className="text-red-500 font-bold">📢 Don't Miss Your Chance to</span>: 🌍 Be part of an
+                  event that merges creativity, culture, and community. 🎉 Shape
+                  the narrative of African cinema on an international scale. 🌟
                   Contribute to the establishment of the Cinetie Europe Office.
                   Secure your place in cinematic history today! Limited spots
                   available. Let the countdown to the Cinetie Spectacular begin!
-                  &lsquo;🌟🎉 🔥 Ignite your passion for cinema. &lsquo;🤝 Shape the future of
+                  🌟🎉 🔥 Ignite your passion for cinema. 🤝 Shape the future of
                   storytelling. 🌌 Be a catalyst for change. Cinetie -
-                  Connecting Continents through Cinema. &lsquo;🌍🎬🌟{" "}</p>
+                  Connecting Continents through Cinema. 🌍🎬🌟{" "}</p>
                   <br />
                   <br />
                   <p className="text-center p-4">
