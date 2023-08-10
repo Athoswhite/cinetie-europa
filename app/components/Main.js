@@ -74,7 +74,7 @@ export default function Main() {
         <br />
         {/* end of Banner */}
         <section id="about">
-          <h2 className="pt-5 md:pt-40 mb-4 md:mb-1 text-xl md:text-xl md:text-center text-sm: lg:text-4xl font-semibold text-center text-gray-200 sm:text-center">
+          <h2 className="pt-5 md:pt-40 mb-4 md:mb-1 text-xl md:text-xl md:text-center text-sm: lg:text-4xl font-semibold text-center text-white sm:text-center">
             What is <span className="text-purple-600">Cinetie</span> Europe.
           </h2>
 
@@ -91,7 +91,7 @@ export default function Main() {
             </div>
           </div>
         </section>
-        <seaction id="attend">
+        <seaction className="min-h-screen flex items-center justify-center " id="attend">
           <Bookings />
         </seaction>
 
@@ -101,7 +101,7 @@ export default function Main() {
               <h1 className="mb-3 md:mb-5 text-3xl md:text-6xl font-bold text-white">
                 Get In Touch
               </h1>
-              <h1 className="mb-6 md:mb-9 text-lg md:text-2xl font-semibold text-gray-200">
+              <h1 className="mb-6 md:mb-9 text-lg md:text-2xl font-semibold text-white">
                 Our 24 / 7 support staff is ready to answer any questions or
                 inquiries you may have. We love hearing from you.
               </h1>
@@ -125,3 +125,4 @@ export default function Main() {
     </>
   );
 }
+

@@ -26,7 +26,7 @@ export default function Example() {
             />
           </a>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex lg:hidden ">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -36,7 +36,7 @@ export default function Example() {
             <Bars3Icon className="h-6 w-6 text-red-500" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-12">
+        <Popover.Group className="hidden lg:flex lg:gap-x-12 ">
           <a href="#home" className="text-sm font-semibold leading-6 text-white hover:text-red-500">
             Home
           </a>
@@ -88,7 +88,7 @@ export default function Example() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-purple-800 bg-opacity-30 backdrop-filter backdrop-blur-lg px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-black/10 z-50">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-1/2 overflow-y-auto bg-purple-800 bg-opacity-30 backdrop-filter backdrop-blur-lg px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-black/10 z-50">
           <div className="flex items-center justify-between">
             <a href="#home" className="hidden -m-1.5 p-1.5">
               <span className="sr-only">Cinetie</span>
@@ -109,7 +109,7 @@ export default function Example() {
               <XMarkIcon className="h-6 w-6 text-red-500" aria-hidden="true" />
             </button>
           </div>
-          <div className="mt-6 flow-root">
+          <div className="mt-6 flow-root ">
             <div className="-my-6 divide-y divide-white">
               <div className="space-y-2 py-6">
                 <a
