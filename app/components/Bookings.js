@@ -21,6 +21,7 @@ const Bookings = () => {
           </div>
         </div>
         <div className="flex flex-wrap -mx-4">
+          
           <ServiceCard
             title="Full Access Pass to the Cinetie Event"
             details="An immersive experience that transcends borders, where cinematic enthusiasts and visionaries come together to shape the future of storytelling."
@@ -182,7 +183,7 @@ export default Bookings;
 const ServiceCard = ({ icon, title, details }) => {
   return (
     <>
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+      <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 px-4 mb-6 md:mb-0">
         <div className="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
           <div
             className={`mb-8 flex h-[70px] w-[70px] p-3 items-center justify-center rounded-2xl bg-primary`}
@@ -197,67 +198,3 @@ const ServiceCard = ({ icon, title, details }) => {
   );
 };
 
-
-
-// import React from "react";
-
-// export default function Bookings() {
-//   return (
-//     <div className="xl:mx-auto xl:container py-20 2xl:px-0 px-6">
-//       <div className="lg:flex justify-between">
-//         {/* Left Card */}
-//         <div className="lg:w-1/2 w-full bg-neutral-900 rounded-lg p-8 shadow-md">
-//           <p className="text-base leading-4 text-red-700">ATTEND LIVE</p>
-//           <h5 className="md:text-5xl text-3xl font-bold leading-normal text-white">
-//             Join our <span className="text-purple-600">CINETIE</span> Europe launching
-//           </h5>
-//           <ol className="list-outside mt-6 text-white">
-//             <li className="mb-4">
-//               <span className="text-red-500 font-bold">
-//                 Full Access Pass to the Cinetie Event
-//               </span>{" "}
-//               - An immersive experience that transcends borders, where cinematic enthusiasts and visionaries come together to shape the future of storytelling.
-//             </li>
-//             <li className="mb-4">
-//               <span className="text-red-500 font-bold">
-//                 An Array of Captivating Films and Masterpieces
-//               </span>{" "}
-//               - Immerse yourself in an exclusive selection of cinematic treasures, giving you a glimpse into the heart and soul of Africa's diverse narratives.
-//             </li>
-//             <li className="mb-4">
-//               <span className="text-red-500 font-bold">Inspiring Talks</span> - Gain insights from industry luminaries and visionaries, including the renowned CEO of Cinetie, a trailblazing film producer who has championed African cinema on the global stage.
-//             </li>
-//             <li className="mb-4">
-//               <span className="text-red-500 font-bold">Unveiling of the Cinetie Europe Office Project</span> - Witness the grand reveal of our project to establish a new Cinetie office in Europe! Your participation will directly contribute to this groundbreaking initiative that will amplify the impact of African storytelling worldwide.
-//             </li>
-//             <li className="mb-4">
-//               <span className="text-red-500 font-bold">Networking and Cultural Exchange</span> - Connect with fellow cinema enthusiasts, professionals, and change-makers in an atmosphere of collaboration and celebration.
-//             </li>
-//           </ol>
-//           <p className="mt-6 text-white">
-//             <span className="text-red-500 font-bold">Don't Miss Your Chance to :</span> Be part of an event that merges creativity, culture, and community. Shape the narrative of African cinema on an international scale. Contribute to the establishment of the Cinetie Europe Office. Secure your place in cinematic history today! Limited spots available. Let the countdown to the Cinetie Spectacular begin! Ignite your passion for cinema. Shape the future of storytelling. Be a catalyst for change. Cinetie - Connecting Continents through Cinema.
-//           </p>
-//         </div>
-
-//         {/* Right Card */}
-//         <div className="xl:w-1/2 lg:w-7/12 mt-12 md:px-8">
-//           <div className="bg-neutral-900 rounded-lg p-8 shadow-md">
-//             <a
-//               href="https://buy.stripe.com/aEUeX7g5acRk8qQbIL"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//               className="bg-indigo-700 text-white rounded-full py-4 px-6 block text-center hover:bg-red-500"
-//               id="monthly"
-//             >
-//               Buy Ticket Now
-//             </a>
-//             <p className="mt-8 font-bold leading-6 text-white">Additional Benefits</p>
-//             <p className="text-lg leading-6 mt-4 text-white">One Month of FREE Cinetie Subscription</p>
-//             <p className="text-base leading-6 mt-4 text-white">Complimentary Video Editing Course and IP</p>
-//             <div className="shadow rounded-full flex items-center mt-10"></div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
