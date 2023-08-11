@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Quotes = () => {
@@ -16,10 +15,23 @@ const Quotes = () => {
           <div className="md:ml-8 text-center md:text-left">
             <div className="bg-opacity-90 p-6 rounded-lg shadow-xl">
               <p className="text-lg md:text-xl font-medium leading-7 text-white">
-                &ldquo;With this innovative platform that showcases the diversity and creativity of African cinema, Cinetie contributes to the entertainment of European audiences by offering them a variety of films that reflect the different cultures, languages, histories, and realities of Africa.&rdquo;
+                <i>
+                  &ldquo;With this innovative platform that showcases the
+                  diversity and creativity of African cinema, Cinetie
+                  contributes to the entertainment of European audiences by
+                  offering them a variety of films that reflect the different
+                  cultures, languages, histories, and realities of
+                  Africa.&rdquo;
+                </i>
               </p>
               <p className="mt-4 text-lg md:text-xl font-medium leading-7 text-white">
-                &ldquo;Cinetie fosters cross-cultural dialogue and exchange between African and European filmmakers and viewers, by creating opportunities for collaboration, feedback, and appreciation with regards to supporting the development and sustainability of the African film industry.&rdquo;
+                <i>
+                  &ldquo;Cinetie fosters cross-cultural dialogue and exchange
+                  between African and European filmmakers and viewers, by
+                  creating opportunities for collaboration, feedback, and
+                  appreciation with regards to supporting the development and
+                  sustainability of the African film industry.&rdquo;
+                </i>
               </p>
             </div>
             <div className="md:mt-6 mt-8">
