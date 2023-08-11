@@ -161,7 +161,7 @@ a {
 }
 
 .bg-gradient-to-r {
-  background-image: linear-gradient(to top, #000000 60%,#1f090951,#402a007f, #003f5a7f, #402d007f);
+  background-image: linear-gradient(to left, #000000 30%,#1f090951,#69000c7f, #003f5a7f, #402d007f);
   animation: gradient 3s linear infinite;
   backdrop-filter: blur(3px);
 }
@@ -175,3 +175,5 @@ a {
     background-position: 100% 70%;
   }
 }
+
+

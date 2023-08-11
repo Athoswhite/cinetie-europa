@@ -1,129 +1,68 @@
 import React from "react";
 import Qoutes from "./Qoutes";
 import Bookings from "./Bookings";
+import About from "./About";
+import Pay from "./Pay"
 
 export default function Main() {
   return (
-    <>
-      <section class="text-gray-600 body-font">
-        {/* Banner starts here */}
-        <section id="home">
-          <div className="py-5 md:py-20 flex flex-col items-center justify-center">
-            <div className="xl:w-3/4 w-11/12 md:w-5/6 sm:w-[-10px]">
-              <br />
-              <br />
-              <br />
-
-              <h1
-                role="heading"
-                tabIndex={0}
-                className="text-4xl font-bold 2xl:leading-10 leading-0 text-center text-white"
-              >
-                Entertain Europe Through{" "}
-                <span className="text-purple-600">African Cinema</span>
-              </h1>
-            </div>
-            <div className="2xl:px-20 lg:px-12 px-4 flex flex-wrap items-start mt-4">
-              <div className="ml-6 mt-16">
-                <div className="flex items-center justify-end my-6">
-                  <img
-                    tabIndex={0}
-                    src="https://hls-dash-drm-source-1xi7l5k006rpx-thumbnails.s3.amazonaws.com/11c442c9-0994-473e-bbda-1a008dbdaff3.jpg"
-                    alt="cinetie movie"
-                    className="w-full md:w-[300px] sm:w-[200px] rounded-lg"
-                    style={{ maxWidth: "600px", height: "auto" }}
-                  />
-                </div>
-                
-                <div className="flex items-start">
-                  <img
-                    tabIndex={0}
-                    src="https://hls-dash-drm-source-1xi7l5k006rpx-thumbnails.s3.amazonaws.com/e5fb61b6-b49f-4f7d-9105-1b5d02c4a9f0.jpg"
-                    alt="girl with blue background"
-                    className="w-full md:w-[600px] sm:w-[200px] rounded-lg"
-                    style={{ maxWidth: "600px", height: "auto" }}
-                  />
-                </div>
-              </div>
-              <div className="ml-6 mt-16">
-                <img
-                  tabIndex={0}
-                  src="https://vod-pipeline-3-thumbnails.s3.eu-west-1.amazonaws.com/a242235e-7294-4dce-a738-4336f6020f46.jpg"
-                  className="w-full md:w-[300px] sm:w-[200px] rounded-lg"
-                  style={{
-                    maxWidth: "500px",
-                    height: "800px",
-                    maxHeight: "600px",
-                  }}
-                  alt="cinetie image"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="flex justify-center mt-6 md:mt-8">
-            <a
-              href="https://www.cinetie.com"
-              className="btn btn-primary btn-animated"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Stream on Cinetie
-            </a>
-          </div>
-        </section>
-        <br />
-        <br />
-        {/* end of Banner */}
-        <section id="about">
-          <h2 className="pt-5 md:pt-40 mb-4 md:mb-1 text-xl md:text-xl md:text-center text-sm: lg:text-4xl font-semibold text-center text-white sm:text-center">
-            What is <span className="text-purple-600">Cinetie</span> Europe.
-          </h2>
-
-          <p className="p-4 mx-auto md:text-xl text-center text-gray-300 font-normal leading-relaxed md:w-3/4 lg:w-2/3 text-justify md:text-center text-sm sm: sm:text-center">
-            Cinetie Europe is a film streaming platform design to bring the
-            entertainment to the Europe audience by providing premium content
-            from African producers to the European audience. We stream different
-            film including but not limited to short films, long feature film,
-            documentary, TV series and animations.
-          </p>
-          <div className="pt-6 md:pt-10 pb-20 md:max-xl:flex mx-auto md:px-1">
-            <div className="bg-neutral-900 backdrop-filter backdrop-blur-lg backdrop-opacity-10 p-4 rounded-lg">
-              <Qoutes />
-            </div>
-          </div>
-        </section>
-        <seaction className="min-h-screen flex items-center justify-center " id="attend">
-          <Bookings />
-        </seaction>
-
-        <section className="relative pb-10 md:pb-24" id="contact">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-            <div className="py-12 md:py-36">
-              <h1 className="mb-3 md:mb-5 text-3xl md:text-6xl font-bold text-white">
-                Get In Touch
-              </h1>
-              <h1 className="mb-6 md:mb-9 text-lg md:text-2xl font-semibold text-white">
-                Our 24 / 7 support staff is ready to answer any questions or
-                inquiries you may have. We love hearing from you.
-              </h1>
-              <input
-                type="email"
-                placeholder="tracy@cinetie.com"
-                name="email"
-                autoComplete="email"
-                className="border border-gray-600 w-full md:w-1/4 pr-2 pl-2 py-2 md:py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-700 bg-black"
-              />
-              <a
-                className="inline-flex items-center px-6 py-2 mt-2 md:mt-3 ml-0 md:ml-2 font-medium text-black transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-white"
-                href="mailto:tracy@cinetie.com"
-              >
-                <span className="justify-center">Email Us</span>
-              </a>
-            </div>
-          </div>
-        </section>
+    <section className="">
+      <section
+        id="home"
+        className="bg-gradient-to-r  py-24"
+      >
+        <div className="container mx-auto ">
+        <About />
+        </div>
       </section>
-    </>
+
+      <section id="about" className="bg-black py-16">
+        <div className="container mx-auto text-center">
+          <h2 className="text-4xl md:text-6xl font-semibold text-white mb-6">
+            What is <span className="text-purple-500">Cinetie</span> Europe.
+          </h2>
+          <p className="md:w-2/3 mx-auto text-white leading-relaxed text-lg md:text-xl mb-10">
+            Cinetie Europe is a film streaming platform designed to bring
+            entertainment to the European audience by providing premium content
+            from African producers. We stream various films, including short
+            films, feature films, documentaries, TV series, and animations.
+          </p>
+          <div className="  p-2 rounded-lg mx-auto ">
+            <Qoutes />
+          </div>
+        </div>
+      </section>
+
+      <section id="attend" className="py-20 ">
+        <div className="container mx-auto flex flex-wrap justify-center">
+          <Bookings />
+          <Pay />
+        </div>
+      </section>
+    
+
+      <section id="contact" className="bg-black text-white py-20">
+        <div className="container mx-auto text-center">
+          <h1 className="text-4xl md:text-6xl font-bold mb-8">Get In Touch</h1>
+          <p className="text-xl md:text-2xl mb-12">
+            Our 24/7 support staff is ready to answer any questions or inquiries
+            you may have. We love hearing from you.
+          </p>
+          <input
+            type="email"
+            placeholder="tracy@cinetie.com"
+            name="email"
+            autoComplete="email"
+            className="border border-gray-600 w-full md:w-1/4 pr-2 pl-2 py-2 md:py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-700 bg-black"
+          />
+          <a
+            className="inline-block px-6 py-3 mt-3 bg-white text-black font-medium rounded-md transition duration-500 ease-in-out transform hover:bg-gray-100"
+            href="mailto:tracy@cinetie.com"
+          >
+            Email Us
+          </a>
+        </div>
+      </section>
+    </section>
   );
 }
-
