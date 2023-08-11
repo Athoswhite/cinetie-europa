@@ -9,7 +9,7 @@ const Pricing = () => {
             Additional Benefits
           </h2>
           <p className="text-white text-body-color">
-            Time: 4.30pm, Date: 30th September 2023
+            Time: 4.30pm, Date: 29th September 2023
           </p>
         </div>
 
@@ -22,7 +22,7 @@ const Pricing = () => {
             active
           >
             <List>One Month of FREE Cinetie Subscription</List>
-            <List>Complimentary Video Editing Course</List>
+            <List>Complimentary Video Editing Course and IP</List>
           </PricingCard>
         </div>
       </div>
