@@ -47,7 +47,7 @@ const PricingCard = ({ children, description, price, type, buttonText, active })
           {children}
         </ul>
         <a
-          href="https://buy.stripe.com/aEUeX7g5acRk8qQbIL"
+          href="https://buy.stripe.com/bIYdT34ms6sW6iI28d"
           target="_blank"
           rel="noopener noreferrer"
           className={ `${ 
