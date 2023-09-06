@@ -9,7 +9,7 @@ const Pricing = () => {
             Additional Benefits
           </h2>
           <p className="text-white text-body-color">
-            Time: 4.30pm, Date: 29th September 2023
+            Time: 4.30pm, Date: 24th November 2023
           </p>
         </div>
 
